@@ -11,3 +11,12 @@ extern "C" {
 pub fn greet(name: &str) -> std::string::String {
     return format!("Hello, {}!", name);
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn it_works() {
+        use greet;
+        assert_eq!("Hello, t!", greet("t"));
+    }
+}
