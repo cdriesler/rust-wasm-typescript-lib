@@ -9,7 +9,7 @@
         "outDir": "dist",
         "lib": ["es2016", "dom", "es6"],
         "strict": false,
-        "baseUrl": ".",
+        "baseUrl": "."
     },
     "include": [
         "src/**/*",
